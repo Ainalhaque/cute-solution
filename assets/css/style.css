@@ -49,10 +49,24 @@ body {
     z-index: 999;
 }
 
+.nav_menu a {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--button-color);
+}
+
 nav.sticky_nav {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
     transition: background-color .5s ease;
 }
+
+.navbar-toggler {
+    color: var(--white-color);
+}
+
 
 
 
